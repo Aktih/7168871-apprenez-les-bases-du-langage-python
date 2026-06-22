@@ -13,5 +13,5 @@ print(couleur_banane)
 fruits["pomme"] = "vert"
 print(fruits)
 
-del(fruits["banane"])
+del(fruits["banane"]) # delete de la cle banane
 print(fruits.keys())
