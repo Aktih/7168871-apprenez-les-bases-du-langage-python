@@ -1,0 +1,11 @@
+animal = "lion"
+
+match animal:
+    case  "chien":
+        print("Wouaf !")
+    case "chat":
+        print("Miaou !")
+    case "oiseau":
+        print("Piou Piou !")
+    case _:
+        print("Je ne connais pas cet animal")
